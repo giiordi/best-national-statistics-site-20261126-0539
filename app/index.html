@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#123f3d">
+  <meta name="description" content="Explore Nusaraya through official statistics. Population, economy, provinces and the environment, 2019–2026.">
+  <title>Nusaraya in numbers · Statistics Office</title>
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAQUlEQVR42mMQtbf5P5CYYdQBow4YdQC5Gj/fO4CBRx0w6oBRBwwvBxCyYNQBow6glgNHHTDqgFEHjDZKRx0w6gAASxivI26reH0AAAAASUVORK5CYII=">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#view">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="#/overview" aria-label="Nusaraya Statistics Office home">
+      <svg viewBox="0 0 42 42" aria-hidden="true"><path d="M6 32V18h7v14m5 0V8h7v24m5 0V23h7v9" fill="none" stroke="currentColor" stroke-width="5"/><path d="M4 38h34" stroke="currentColor" stroke-width="2"/></svg>
+      <span>NUSARAYA<small>STATISTICS OFFICE</small></span>
+    </a>
+    <div class="nav-caption">EXPLORE THE NATION</div>
+    <nav id="primary-nav" aria-label="Main navigation">
+      <a href="#/overview"><span aria-hidden="true">◫</span> Overview</a>
+      <a href="#/population"><span aria-hidden="true">♧</span> Population</a>
+      <a href="#/economy"><span aria-hidden="true">↗</span> Economy</a>
+      <a href="#/regions"><span aria-hidden="true">◇</span> Regions</a>
+      <a href="#/labour"><span aria-hidden="true">▤</span> Labour</a>
+      <a href="#/prices"><span aria-hidden="true">◉</span> Prices & inflation</a>
+      <a href="#/education-health"><span aria-hidden="true">⊕</span> Education & health</a>
+      <a href="#/environment"><span aria-hidden="true">❧</span> Environment</a>
+      <div class="nav-divider"></div>
+      <a href="#/tables"><span aria-hidden="true">▦</span> Data tables</a>
+      <a href="#/methodology"><span aria-hidden="true">ⓘ</span> Methodology & notes</a>
+    </nav>
+    <div class="sidebar-note"><span class="status-dot"></span> Independent data. Shared understanding.<small>The official statistical record<br>of our island nation.</small><div class="island-mark" aria-hidden="true">◢ ◠ ◒</div></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <div class="official"><span class="seal" aria-hidden="true">✳</span> Official statistics of Nusaraya</div>
+      <form id="global-search" role="search"><label class="sr-only" for="site-search">Search statistics</label><span aria-hidden="true">⌕</span><input id="site-search" placeholder="Find a statistic…" autocomplete="off"><button type="submit" aria-label="Search data tables">↵</button></form>
+      <a class="top-link" href="#/methodology">About our data ↗</a>
+    </header>
+    <div class="controlbar"><span><span class="status-dot"></span> ANNUAL STATISTICAL EDITION</span><div><label for="year-select">Reference year</label><select id="year-select" aria-label="Reference year"></select><label class="sr-only" for="province-select">Explore a province</label><select id="province-select"><option value="">Explore a province</option></select></div></div>
+    <main id="view" tabindex="-1"></main>
+    <footer><span>© 2026 Nusaraya Statistics Office</span><span>Fictional nation · Illustrative official statistics</span><a href="#/methodology">Sources, definitions & accessibility ↗</a></footer>
+  </div>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
